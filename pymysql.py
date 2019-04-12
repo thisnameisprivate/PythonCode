@@ -1,0 +1,2 @@
+import pymysql
+pymysql.VERSION

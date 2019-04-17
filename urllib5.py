@@ -1,4 +1,4 @@
-from urllib import request, parse
+from urllib6 import request, parse
 url = 'http://httpbin.org/post'
 headers = {'Host':'httpbin'}
 dict = {'name':'Germey'}

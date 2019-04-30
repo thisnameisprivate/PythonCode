@@ -42,7 +42,7 @@ class MusicScript (object):
             data = requests.get(src).content
             info = 'Start Install %d Music:%s \n' % (i + 1, filename)
             if flag:
-                self.text.insert(tkinter.END, info) # 在文本框中显示下载信息
+                self.text.insert(tkinter.END, info)
                 self.text.see(tkinter.END)
                 self.text.update()
                 break
@@ -116,4 +116,3 @@ class Application(object):
 if __name__ == '__main__':
     app = Application()
     app.run()
-

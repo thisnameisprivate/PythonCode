@@ -7,3 +7,12 @@ print(tesserocr.image_to_text(image))
 
 
 
+
+
+
+
+
+
+
+
+
